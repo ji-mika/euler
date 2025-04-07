@@ -1,7 +1,7 @@
 # ¿Como ejecutarlo?
-  1.Descargar y descomprimir la carpeta.
+  1. Descargar y descomprimir la carpeta.
   
-  2.Abrir una terminal ejecutar los siguientes comandos:
+  2. Abrir una terminal ejecutar los siguientes comandos:
   
     -pip install flask sympy (instalar paquetes Flask y Sympy)
     -python app.py (ejecutar la app)
