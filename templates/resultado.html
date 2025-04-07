@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultado - Euler Mejorado</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>👌 Método de Euler Mejorado</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>n</th>
+          <th>xₙ</th>
+          <th>yₙ</th>
+          <th>(yₙ+1)*</th>
+          <th>xₙ+1</th>
+          <th>yₙ+1</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for i, x, y, y_pred, x_next, y_next in resultados %}
+        <tr>
+          <td>{{ i }}</td>
+          <td>{{ '%.4f' | format(x) }}</td>
+          <td>{{ '%.4f' | format(y) }}</td>
+          <td>{{ '%.4f' | format(y_pred) }}</td>
+          <td>{{ '%.4f' | format(x_next) }}</td>
+          <td>{{ '%.4f' | format(y_next) }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+    <a href="/">← Volver</a>
+  </div>
+</body>
+</html>
+
+<!--tatakai tsuzukemasu-->

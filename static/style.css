@@ -1,0 +1,119 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #e8f0fe;
+  padding: 2rem 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+  background: #ffffff;
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  border: 1px solid #e1e8ed;
+}
+
+/* Títulos */
+h1 {
+  font-size: 2rem;
+  color: #3c3c3c;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Estilo del formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1rem;
+  color: #4c4c4c;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 1px solid #c6d2e1;
+  background-color: #f4f7fa;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #ffffff;
+}
+
+button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la tabla de resultados */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 2rem;
+  border-radius: 12px;
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+}
+
+th, td {
+  padding: 1rem;
+  border: 1px solid #dce3e9;
+  text-align: center;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: #f0f8ff;
+}
+
+a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}

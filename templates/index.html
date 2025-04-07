@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Método de Euler Mejorado</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>😎 Método de Euler Mejorado</h1>
+
+    <form action="/" method="post">
+      <div class="form-group">
+        <label for="funcion">Función f(x, y):</label>
+        <input type="text" name="funcion" placeholder="Ej: x + y" required>
+      </div>
+
+      <div class="form-group">
+        <label for="x0">Valor inicial x₀:</label>
+        <input type="number" name="x0" step="any" required>
+      </div>
+
+      <div class="form-group">
+        <label for="y0">Valor inicial y₀:</label>
+        <input type="number" name="y0" step="any" required>
+      </div>
+
+      <div class="form-group">
+        <label for="h">Paso h:</label>
+        <input type="number" name="h" step="any" required>
+      </div>
+
+      <div class="form-group">
+        <label for="n">Número de pasos:</label>
+        <input type="number" name="n" required>
+      </div>
+
+      <button type="submit">Calcular</button>
+    </form>
+  </div>
+</body>
+</html>
+
+<!--Katenai kamoshiremasen ga,-->
